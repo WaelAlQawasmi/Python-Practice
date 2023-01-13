@@ -13,7 +13,11 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 def arr(arr):
+    print( len(arr))
+    dic={}
     for x in arr:
+        dic[x]=1
+        print (dic)
         print (chr(ord(x))) #chr ord
 
 
@@ -21,3 +25,6 @@ def arr(arr):
 if __name__ == '__main__':
     print_hi('PyCharm')
     arr(['a','b'])
+
+
+
