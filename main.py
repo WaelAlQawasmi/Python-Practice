@@ -19,6 +19,15 @@ def arr(arr):
         dic[x]=1
         print (dic)
         print (chr(ord(x))) #chr ord
+def pre_order(root):
+    if root==None:
+        return
+    #code
+    pre_order(root.left)
+    pre_order(root.right)
+
+
+
 
 
 
